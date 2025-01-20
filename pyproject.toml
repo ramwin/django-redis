@@ -11,3 +11,6 @@ type = [
   { name = "Documentation",             directory = "doc",  showcontent = true },
   { name = "Deprecations and Removals", directory = "removal", showcontent = true },
 ]
+
+[tool.setuptools.package-data]
+django_redis = ["django_redis/py.typed"]
